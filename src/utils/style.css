@@ -1,0 +1,36 @@
+#components-form-demo-normal-login .login-form {
+  max-width: 300px;
+}
+#components-form-demo-normal-login .login-form-forgot {
+  float: right;
+}
+#components-form-demo-normal-login .ant-col-rtl .login-form-forgot {
+  float: left;
+}
+#components-form-demo-normal-login .login-form-button {
+  width: 100%;
+}
+
+@media only screen and (max-width: 800px) {
+  .sentiments {
+    height: auto;
+  }
+  .textfield {
+    width: auto;
+  }
+  .submit-btn {
+    width: 150px !important;
+    margin-bottom: 20px !important;
+  }
+  .bulb {
+    margin-right: 0px;
+    margin-top: 60px;
+  }
+  .bell {
+    margin-left: 20px;
+    margin-top: 200px;
+  }
+  .avatars {
+    width: "60%";
+  }
+}
